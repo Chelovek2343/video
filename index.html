@@ -1,0 +1,52 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <button onclick="setNumber(1)">1</button>
+    <button onclick="setNumber(2)">2</button> -->
+<!-- Добавьте кнопки для остальных цифр -->
+
+<!--    <script>
+      var prev = 0;
+      var next = 0;
+
+      function setNumber(number) {
+        next = prev;
+        prev = number;
+
+        console.log("Prev: " + prev);
+        console.log("Next: " + next);
+      }
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+
+	 <button id="join-btn">Join Stream</button>
+
+    <div id="stream-wrapper">
+        <div id="video-streams"></div>
+
+        <div id="stream-controls">
+            <button id="leave-btn">Leave Stream</button>
+            <button id="mic-btn">Mic On</button>
+            <button id="camera-btn">Camera on</button>
+        </div>
+    </div>
+    
+	
+	<script src="AgoraRTC_N-4.17.2.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
